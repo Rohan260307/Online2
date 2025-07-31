@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Marko Form Centered</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="center-wrapper">
+    <div class="form-wrapper">
+      <h1>'Lets Work With Rohan.'</h1>
+      <p class="description">
+        He is providing youth a part time earning option just by using social media.
+        Fill the form fast if you want to start earning.
+      </p>
+
+      <form id="markoForm">
+        <div class="form-group">
+          <label>1. Your good name?</label>
+          <input type="text" name="name" required>
+        </div>
+
+        <div class="form-group">
+          <label>2. Gender</label>
+          <label><input type="radio" name="gender" value="Male" required> Male</label>
+          <label><input type="radio" name="gender" value="Female" required> Female</label>
+        </div>
+
+        <div class="form-group">
+          <label>3. What is your age?</label>
+          <input type="number" name="age" required>
+        </div>
+
+        <div class="form-group">
+          <label>4. Mobile Number (calling number)?</label>
+          <input type="tel" name="phone" required>
+        </div>
+
+        <div class="form-group">
+          <label>5. State & City?</label>
+          <input type="text" name="location" required>
+        </div>
+
+        <div class="form-group">
+          <label>6. What are you doing currently?</label>
+          <input type="text" name="occupation" required>
+        </div>
+
+        <div class="form-group">
+          <label>7. Instagram ID (original)?</label>
+          <input type="text" name="instagram" required>
+        </div>
+
+        <div class="form-actions">
+          <button type="reset">Clear form</button>
+          <button type="submit">Submit ✓</button>
+        </div>
+
+        <div class="success-msg" id="successMsg"></div>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
